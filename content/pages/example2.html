@@ -12,6 +12,104 @@
             background-color: aqua;
         }
     </style>
+
+<div id="interface">
+    <header class="topo">
+        <img src="img/logo-senac.png" alt="Logo do Senac">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="cursos.html"> Cursos </a></li>
+                <li><a href="contatos.html"> Contatos </a></li>
+            </ul>
+        </nav>
+        <img src="img/topo_pos.jpg" alt="">
+    </header>
+    <form action="">
+        <fieldset id="usuario">
+            <legend>Identificação do Usuário</legend>
+            <p>
+                <label for=""> Nome: </label>
+                <input type="text" name="tnome" id="cnome" size="20" placeholder="Nome Completo" autofocus required>
+            </p>
+            <p>
+                <label for="csenha"> Senha: </label>
+                <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 digitos" required>
+            </p>
+            <p>
+                <label for="cmail">E-mail</label>
+                <input type="email" name="cmail" size="35" placeholder="Digite seu e-mail" required>
+            </p>
+            <fieldset id="sexo">
+                <legend>Sexo :</legend>
+                <input type="radio" name="tsexo" id="csexo">
+                <label for="cmasc">Masculino</label>
+                <br>
+                <input type="radio" name="tsexo" id="cfem">
+                <label for="cfem">Feminino</label>
+                <br>
+                <input type="radio" name="tsexo" id="coutros">
+                <label for="coutros">Outros</label>
+            </fieldset>
+
+            <p>
+                Data de Nascimento: <input type="date" name="tnasc" id="cnasc">
+            </p>
+        </fieldset>
+        <fieldset id="endereco">
+            <legend>Endereço de Usuário</legend>
+            <p>
+                <label for="cendereco">Endereço</label>
+                <input type="text" name="trua" id="crua" size="30" placeholder="Av, Rua, Trv,...">
+            </p>
+            <p>
+                <label for="cnum">Número:</label>
+                <input type="number" name="tnum" id="cnum" min="8" max="9999">
+            </p>
+            <p>
+                <label for="cest">Estado</label>
+                <select type="test" id="cest">
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="ES">Espirito Santos</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="ccid">Cidade</label>
+                <input type="text" name="tcid" id="ccid" size="35" placeholder="Sua Cidade">
+            </p>
+        </fieldset>
+        <fieldset id="mensagem">
+            <legend>Mensagem do Usuário</legend>
+            <p>
+                <label for="curg">Grau de Urgência:</label>
+                Min<input type="range" name="turg" id="curg" min="8" max="10" step="2">Máx
+            </p>
+            <p> <label for="cmsg">Mensagem:</label> </p>
+            <textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Deixe uma mensagem aqui..."></textarea>
+        </fieldset>
+        <p>
+            <button id="botao">Enviar</button>
+        </p>
+    </form>
+
+    <footer class="rodape">
+        <p>Curso Técnico de Informática 2023.</p>
+        <p>Somente fins educativos.</p>
+        <p>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+        </p>
+    </footer>
+</div>
     
     
 </body>
