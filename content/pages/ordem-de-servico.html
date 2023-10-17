@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Game</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Manutenção de Eletrônicos</title>
+      <!-- Adicione o Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <style>
+          .carousel-item {
+              height: 400px;
+          }
+      </style>
+  </head>
+  <body>
+  
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Manutenção de Eletrônicos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="">Início</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contatos.html">Contatos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="ordem-de-servico.html">Ordens de Serviço</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    
+        <h1>Ordem de Serviço</h1>
+        <form>
+            <label for="cliente">Cliente:</label><br>
+            <input type="text" id="cliente" name="cliente"><br><br>
+    
+            <label for="descricao">Descrição do Serviço:</label><br>
+            <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea><br><br>
+    
+            <label for="prioridade">Prioridade:</label>
+            <select id="prioridade" name="prioridade">
+                <option value="baixa">Baixa</option>
+                <option value="média">Média</option>
+                <option value="alta">Alta</option>
+            </select><br><br>
+    
+            <label for="data">Data de Entrega:</label><br>
+            <input type="date" id="data" name="data"><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</body>
+</html>
