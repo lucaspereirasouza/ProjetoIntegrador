@@ -44,17 +44,21 @@
           </ul>
       </div>
   </nav>
-  <h1>Botão de Login</h1>
+  <h1>Login</h1>
 
-<!-- Botão de login -->
-<button onclick="myFunction()">Login</button>
-
-<script>
-function myFunction() {
-  alert("Você pressionou o botão de login!");
-  // Aqui você pode adicionar lógica adicional para o processo de login.
-}
-</script>
+  <form action="/action_page.php">
+      <div>
+          <label for="username">Usuário:</label>
+          <input type="text" id="username" name="username">
+      </div>
+      <div>
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password">
+      </div>
+      <div>
+          <input type="submit" value="Login">
+      </div>
+  </form>
 
 </body>
 </html>
