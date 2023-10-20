@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  apache:
+    image: httpd:latest
+    restart: always
+    container_name: "site_projeto_integrador"
+    ports:
+      - 5505:80
+    volumes:
+      - ~/projetoIntegrador/content:/var/www/html
