@@ -1,0 +1,27 @@
+.container-custom{
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.active-red-custom{
+    color: silver;
+}
+
+.a-red-custom{
+    color: red;
+    transition: 0.5s;
+}
+.a-red-custom:hover{
+    color: silver;
+}
+
+.a-custom{
+    color: black;
+    transition: 0.5s;
+    text-decoration-line: none;
+}
+.a-custom:hover{
+    color:blue;
+    text-decoration-line: underline;
+}
