@@ -9,6 +9,10 @@
     background:silver;
 }
 
+.container-custom-secundary{
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    background:rgb(219, 219, 219);
+}
 
 .bg-silver{
     background-color: silver;
