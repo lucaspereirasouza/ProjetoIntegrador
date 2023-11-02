@@ -4,6 +4,18 @@
     line-height: 200%;
 }
 
+.container-custom-silver{
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    background:silver;
+}
+
+
+.bg-silver{
+    background-color: silver;
+}
+.bg-silver-black{
+    background-color: rgb(126, 126, 126);
+}
 .active-red-custom{
     color: silver;
 }
