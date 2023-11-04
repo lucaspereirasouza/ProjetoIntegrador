@@ -1,43 +1,52 @@
-.container-custom{
-    font-family: "Klavika Medium Condensed",arial,sans-serif;
+.container-custom {
+    font-family: "Klavika Medium Condensed", arial, sans-serif;
     font-size: 20px;
     line-height: 200%;
 }
 
-.container-custom-silver{
-    font-family: "Klavika Medium Condensed",arial,sans-serif;
-    background:silver;
+.container-custom-silver {
+    font-family: "Klavika Medium Condensed", arial, sans-serif;
+    background: silver;
 }
 
-.container-custom-secundary{
-    font-family: "Klavika Medium Condensed",arial,sans-serif;
-    background:rgb(219, 219, 219);
+.container-custom-secundary {
+    font-family: "Klavika Medium Condensed", arial, sans-serif;
+    background: rgb(219, 219, 219);
 }
 
-.bg-silver{
+.bg-silver {
     background-color: silver;
 }
-.bg-silver-black{
+
+.bg-silver-black {
     background-color: rgb(126, 126, 126);
 }
-.active-red-custom{
+
+.active-red-custom {
     color: silver;
 }
 
-.a-red-custom{
+.a-red-custom {
     color: red;
     transition: 0.5s;
 }
-.a-red-custom:hover{
+
+.a-red-custom:hover {
     color: silver;
 }
 
-.a-custom{
+.a-custom {
     color: black;
     transition: 0.5s;
     text-decoration-line: none;
 }
-.a-custom:hover{
-    color:blue;
+
+.a-custom:hover {
+    color: blue;
     text-decoration-line: underline;
+}
+
+
+p {
+   font-size: 25px;
 }
