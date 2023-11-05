@@ -1,6 +1,5 @@
 .container-custom {
     font-family: "Klavika Medium Condensed", arial, sans-serif;
-    font-size: 20px;
     line-height: 200%;
 }
 
@@ -50,6 +49,22 @@
 p {
    font-size: 20px;
 }
-.w-100-c{
+
+
+.carousel-menu{
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-menu{
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 200px) {
+    .carousel-menu{
+        height: 100px;
+    }
     
 }
