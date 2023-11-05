@@ -55,16 +55,28 @@ p {
     height: 500px;
 }
 
+.row-custom{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {
     .carousel-menu{
         height: 200px;
     }
-    
+    .row-custom{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width: 200px) {
     .carousel-menu{
         height: 100px;
     }
-    
+
 }
