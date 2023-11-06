@@ -45,17 +45,32 @@
     text-decoration-line: underline;
 }
 
-
-p {
-   font-size: 20px;
+.a-light-custom {
+    color: white;
+    transition: 0.5s;
+    text-decoration-line: none;
 }
 
+.a-light-custom:hover {
+    color: white;
+    text-decoration-line: underline;
+}
 
-.carousel-menu{
+p {
+    font-size: 20px;
+}
+
+.center-container {
+    margin: auto;
+    width: 70%;
+    padding: 0px;
+}
+
+.carousel-menu {
     height: 500px;
 }
 
-.row-custom{
+.row-custom {
     padding-left: 250px;
     padding-top: 50px;
 }
@@ -65,17 +80,18 @@ p {
 
 
 @media screen and (max-width: 600px) {
-    .carousel-menu{
+    .carousel-menu {
         height: 200px;
     }
-    .row-custom{
+
+    .row-custom {
         padding-left: 0px;
         padding-top: 0px;
     }
 }
 
 @media screen and (max-width: 200px) {
-    .carousel-menu{
+    .carousel-menu {
         height: 100px;
     }
 
